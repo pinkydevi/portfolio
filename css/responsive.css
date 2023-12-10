@@ -1,0 +1,136 @@
+/* for mobile menu  */
+@media only screen and (max-width: 900px) {
+  .humberger {
+    display: block;
+    cursor: pointer;
+  }
+  .cancel {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+  }
+  .cancel .fa-xmark {
+    font-size: 30px;
+  }
+  .humberger i.fa-solid.fa-bars {
+    background-color: #7635f5;
+    color: #fff;
+    font-size: 30px;
+    /* width: 30px; */
+    padding: 6px 8px;
+    border-radius: 5px;
+  }
+  .header {
+    padding: 10px 0;
+  }
+  .menu {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100vh;
+    background-color: #7635f5;
+    transition: 0.5s;
+    z-index: -11111;
+    overflow: hidden;
+    border: 2px solid;
+    box-shadow: -2px 8px 18px -1px #000;
+  }
+  .menu.click {
+    opacity: 1;
+  }
+  .menu ul {
+    display: block;
+    text-align: center;
+    width: fit-content;
+    margin: 30px 30px 30px 30px;
+  }
+  .main_section {
+    display: none;
+  }
+  .mobile-icon {
+    display: block;
+  }
+
+  .hero-wlc {
+    order: 2;
+  }
+
+  .hero-img {
+    display: none;
+  }
+}
+
+/* feather section tab  */
+
+@media only screen and (max-width: 1100px) {
+  .nav-pills li {
+    padding: 10px 20px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .nav-pills li {
+    padding: 10px 8px;
+  }
+  .feather-left img {
+    background-color: #ddd;
+    width: 400px;
+    height: 500px;
+  }
+  .header-img-main {
+    display: block;
+    height: 400px;
+    overflow: hidden;
+    text-align: center;
+  }
+  .hero-text {
+    text-align: center;
+  }
+  .hero-btn {
+    margin-top: 10px;
+  }
+  .feather-img {
+    text-align: center;
+  }
+  .tab-btn button {
+    padding: 8px 10px;
+    margin-right: 0px;
+  }
+  .filter-button {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .edu-title h2 {
+    font-size: 18px;
+  }
+  .home-testimonial h2 {
+    text-align: center;
+  }
+  .news-form button {
+    margin-top: 10px;
+  };
+  .defultBtn {
+    padding: 8px 10px;
+    width: 150px;
+}
+}
+
+@media only screen and (max-width: 320px) {
+  .nav-pills li {
+    padding: 10px 8px;
+    font-size: 12px;
+  }
+  .feather-left img {
+    width: 320px;
+    height: 500px;
+  }
+  .feather-img img {
+    max-width: 300px;
+  }
+  
+};
+
+/* <---- Portfolio section ------> */
